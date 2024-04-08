@@ -1,0 +1,26 @@
+:root {
+    --white: #fff;
+    --half-white: #d7ccc0;
+    --light: #f5f4f0;
+    --main-color: #fe8a02;
+    --main-dark: #42413c;
+    --dark: #2a2626;
+    --half-dark: #908d8b;
+    --brown: #b09a81;
+    --blue: #1085c5;
+    --main-font: 16px/1.6em 'Open Sans';
+    --heading-font: 34px/1.2em 'Neucha';
+    --font-color: #2A2626;
+    --h1-size: 72px;
+    --h2-size: 60px;
+    --limit-content: 1110px;
+    --section-padding: 100px 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jf-ct-center {
+    justify-content: center;
+}
