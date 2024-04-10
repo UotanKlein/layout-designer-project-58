@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/open_sans.ttf');
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+@font-face {
+    font-family: 'Neucha';
+    src: url('../fonts/neucha.ttf');
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
 :root {
     --white: #fff;
     --half-white: #d7ccc0;
@@ -8,19 +24,394 @@
     --half-dark: #908d8b;
     --brown: #b09a81;
     --blue: #1085c5;
-    --main-font: 16px/1.6em 'Open Sans';
-    --heading-font: 34px/1.2em 'Neucha';
     --font-color: #2A2626;
-    --h1-size: 72px;
-    --h2-size: 60px;
-    --limit-content: 1110px;
-    --section-padding: 100px 0;
 }
 
-.d-flex {
+.fs-72 {
+    font-size: 72px;
+}
+
+.fs-64 {
+    font-size: 64px;
+}
+
+.fs-34 {
+    font-size: 34px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.neucha {
+    font-family: 'Neucha';
+}
+
+.open-sans {
+    font-family: 'Open Sans', 'sans-serif';
+}
+
+.half-dark {
+    color: var(--half-dark);
+}
+
+html {
+    height: 100%;
+}
+
+header {
+    height: 914px;
+    box-sizing: border-box;
+    background-color: var(--light);
+}
+
+.bg-image {
+    position: relative;
+}
+
+.bg-image::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/background.png');
+    opacity: 0.1;
+    content: "";
+}
+
+.mg-0 {
+    margin: 0;
+}
+
+.black-text {
+    color: var(--dark);
+}
+
+.orange-text {
+    color: var(--main-color);
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-700 {
+    font-weight: 700; 
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1110px;
+    min-height: 900px;
+    padding: 100px 0;
+}
+
+header > * {
+    box-sizing: border-box;
+}
+
+.header-text {
+    line-height: 1.2em;
+}
+
+.header-img {
+    position: absolute;
+    height: 525px;
+    top: 55px;
+    right: -270px;
+}
+
+.header-sub-text {
+    font-weight: 400;
+    line-height: 1.6em;
+}
+
+.detail {
+    display: block;
+    width: 148px;
+    height: 49px;
+    background-color: var(--main-color);
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 700;
+    margin-top: 45px;
+    text-align: center;
+    padding: 0.75rem 1.75rem;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-width-50 {
+    flex-basis: 50%;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+.sec-1 {
+    position: relative;
+}
+
+.sec-1-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+}
+
+.bg-1 {
+    background-color: var(--white);
+    height: 814px;
+}
+
+.bg-2 {
+    background-color: var(--dark);
+    height: 100px;
+}
+
+.video {
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.sec {
+    height: 914px;
+}
+
+.sec-1-p {
+    height: 26px;
+    margin: 30px 0 33px 0;
+}
+
+.sec-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark);
+}
+
+.block-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.sec-2-block {
+    width: 350px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.sec-2-block-first {
+    width: 350px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.sec-2-block:hover {
+    cursor: pointer;
+    background-color: var(--main-color);
+    color: var(--white);
+}
+
+.sec-2-block:hover h3 {
+    color: var(--white);
+}
+
+.light {
+    background-color: var(--light);
+}
+
+.h2-block {
+    margin-bottom: 40px;
+    line-height: 1;
+}
+
+.h3-block {
+    margin-bottom: 15px;
+}
+
+.white-text {
+    color: var(--white);
+}
+
+.brown-text {
+    color: var(--brown);
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.h2-block-start {
+    font-size: 52px;
+}
+
+.block-container > * {
+    box-sizing: border-box;
+}
+
+.test {
+    width: 1130px;
+}
+
+footer {
+    height: 581px;
+    background-color: white;
+    padding: 100px 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.learn-more {
+    width: 1110px;
+    height: 190px;
+    background-color: var(--main-dark);
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 14px;
+}
+
+#mail {
+    height: 50px;
+    width: 423px;
+    outline: none;
+    border: 1px solid #E3E3E3;
+    padding: 0;
+    padding-left: 15px;
+    box-sizing: border-box;
+    color: rgba(117, 117, 117, 0.2);
+}
+
+.mail-container {
     display: flex;
 }
 
-.jf-ct-center {
-    justify-content: center;
+.mail-button {
+    cursor: pointer;
+    height: 50px;
+    width: 70px;
+    background-color: var(--main-color);
+    border: none;
+    padding: 0;
+}
+
+.bg-light {
+    background-color: var(--light);
+}
+
+.bg-brown {
+    background-color: var(--brown);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.text-half-white {
+    color: var(--half-white);
+}
+
+.sec-3 {
+    height: 914px;
+}
+
+.base-container {
+    padding: 100px 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.top-content {
+    display: flex;
+    gap: 30px;
+    width: 1110px;
+}
+
+.desc-top {
+    display: block;
+    width: 502px;
+}
+
+.top-image {
+    width: 578px;
+    height: 434px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+
+.bottom-content {
+    width: 1110px;
+}
+
+.title-bottom {
+    position: relative;
+    display: block;
+    padding: 4px 10px;
+    margin-bottom: 20px;
+}
+
+.bottom-info {
+    display: flex;
+}
+
+.info-el {
+    width: 50%;
+}
+
+.link-without {
+    text-decoration: none;
+    color: inherit;
+}
+
+.double-text-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.z-id-1 {
+    z-index: 1;
 }
