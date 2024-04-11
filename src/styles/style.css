@@ -233,7 +233,6 @@ header > * {
 
 .sec {
     box-sizing: border-box;
-    min-height: 914px;
 }
 
 .title-what {
@@ -448,6 +447,7 @@ footer {
 
 .bottom-info {
     display: flex;
+    gap: 30px;
 }
 
 .info-el {
