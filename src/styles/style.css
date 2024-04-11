@@ -215,7 +215,7 @@ header > * {
     align-items: center; 
     text-align: center;
     position: relative;
-    top: 99px;
+    top: 101px;
     left: 0;
     right: 0;
 }
@@ -250,7 +250,7 @@ header > * {
     justify-content: center;
     background-color: var(--main-dark);
     padding: 0;
-    padding-top: 199px;
+    padding-top: 201px;
     padding-bottom: 100px;
 }
 
