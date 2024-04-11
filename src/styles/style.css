@@ -76,13 +76,10 @@
 }
 
 html {
-    width: 100%;
+    overflow-x: hidden;
+    width: 1440px;
     height: 100%;
     background-color: var(--white);
-}
-
-body {
-    width: 1440px;
 }
 
 header {
@@ -213,7 +210,7 @@ header > * {
 
 .bg-1 {
     background-color: var(--white);
-    height: 814px;
+    height: 807px;
 }
 
 .bg-2 {
