@@ -194,7 +194,7 @@ header > * {
 .sec-1 {
     position: relative;
     box-sizing: border-box;
-    height: 814px;
+    height: 807px;
 }
 
 .sec-1-content {
@@ -210,7 +210,7 @@ header > * {
 
 .bg-1 {
     background-color: var(--white);
-    height: 807px;
+    height: 100%;
 }
 
 .bg-2 {
