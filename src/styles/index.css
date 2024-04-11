@@ -27,8 +27,12 @@
     font-size: 72px;
 }
 
-.fs-64 {
-    font-size: 64px;
+.fs-60 {
+    font-size: 60px;
+}
+
+.fs-52 {
+    font-size: 52px;
 }
 
 .fs-34 {
@@ -39,8 +43,20 @@
     font-size: 18px;
 }
 
+.fs-64 {
+    font-size: 64px;
+}
+
 .fs-12 {
     font-size: 12px;
+}
+
+.lh-1-6 {
+    line-height: 1.6em;
+}
+
+.lh-1-2 {
+    line-height: 1.2em;
 }
 
 .neucha {
@@ -60,7 +76,6 @@ html {
 }
 
 header {
-    height: 914px;
     box-sizing: border-box;
     background-color: var(--light);
 }
@@ -93,11 +108,11 @@ header {
 }
 
 .fw-400 {
-    font-weight: 400;
+    font-weight: normal;
 }
 
 .fw-700 {
-    font-weight: 700; 
+    font-weight: bold; 
 }
 
 header {
@@ -119,10 +134,6 @@ header > * {
     box-sizing: border-box;
 }
 
-.header-text {
-    line-height: 1.2em;
-}
-
 .header-img {
     position: absolute;
     height: 525px;
@@ -130,9 +141,8 @@ header > * {
     right: -270px;
 }
 
-.header-sub-text {
-    font-weight: 400;
-    line-height: 1.6em;
+.title-head {
+    position: relative;
 }
 
 .detail {
@@ -159,7 +169,7 @@ header > * {
 }
 
 .gap-2 {
-    gap: 2rem;
+    gap: 30px;
 }
 
 .sec-1 {
@@ -184,7 +194,7 @@ header > * {
 }
 
 .bg-2 {
-    background-color: var(--dark);
+    background-color: var(--main-dark);
     height: 100px;
 }
 
@@ -194,25 +204,33 @@ header > * {
 }
 
 .sec {
-    height: 914px;
+    box-sizing: content-box;
+}
+
+.title-what {
+    margin-bottom: 30px;
 }
 
 .sec-1-p {
     height: 26px;
-    margin: 30px 0 33px 0;
+    margin-top: 0;
 }
 
 .sec-2 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: var(--dark);
+    background-color: var(--main-dark);
+    padding: 100px 0;
+}
+
+.text-image-cont {
+    position: relative;
 }
 
 .block-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 30px;
 }
 
 .sec-2-block {
@@ -348,17 +366,13 @@ footer {
     color: var(--half-white);
 }
 
-.sec-3 {
-    height: 914px;
-}
-
 .base-container {
     padding: 100px 0;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 100px;
+    gap: 30px;
 }
 
 .top-content {
