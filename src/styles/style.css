@@ -190,13 +190,14 @@ header > * {
 
 .sec-1 {
     position: relative;
+    box-sizing: border-box;
+    height: 814px;
 }
 
 .sec-1-content {
     display: flex;
     flex-direction: column;
     align-items: center; 
-    justify-content: center;
     text-align: center;
     position: absolute;
     top: 100px;
@@ -220,7 +221,7 @@ header > * {
 }
 
 .sec {
-    box-sizing: content-box;
+    box-sizing: border-box;
     min-height: 914px;
 }
 
@@ -237,7 +238,9 @@ header > * {
     display: flex;
     justify-content: center;
     background-color: var(--main-dark);
-    padding: 100px 0;
+    padding: 0;
+    padding-top: 200px;
+    padding-bottom: 100px;
 }
 
 .text-image-cont {
@@ -247,7 +250,7 @@ header > * {
 .block-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 1rem;
 }
 
 .sec-2-block {
@@ -313,7 +316,7 @@ header > * {
 }
 
 .test {
-    width: 1130px;
+    width: 1110px;
 }
 
 footer {
