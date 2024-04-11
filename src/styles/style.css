@@ -76,8 +76,13 @@
 }
 
 html {
-    width: 1440px;
+    width: 100%;
     height: 100%;
+    background-color: var(--white);
+}
+
+body {
+    width: 1440px;
 }
 
 header {
@@ -241,7 +246,7 @@ header > * {
     justify-content: center;
     background-color: var(--main-dark);
     padding: 0;
-    padding-top: 190px;
+    padding-top: 200px;
     padding-bottom: 100px;
 }
 
