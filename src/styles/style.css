@@ -43,6 +43,10 @@
     font-size: 18px;
 }
 
+.fs-16 {
+    font-size: 16px;
+}
+
 .fs-24 {
     font-size: 24px;
 }
@@ -411,6 +415,7 @@ footer {
     display: flex;
     gap: 30px;
     width: 1110px;
+    margin-bottom: 70px;
 }
 
 .desc-top {
@@ -462,4 +467,8 @@ footer {
 
 .rules {
     color: inherit;
+}
+
+.title-block {
+    margin-bottom: 30px;
 }
