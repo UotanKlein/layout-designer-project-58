@@ -88,6 +88,11 @@ html {
     width: 1440px;
     height: 100%;
     background-color: var(--white);
+    font-weight: 400;
+    font-family: OpenSans, serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2a2626;
 }
 
 header {
@@ -228,7 +233,8 @@ header > * {
 
 .video {
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
-    border: none;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .sec {
