@@ -137,7 +137,7 @@ header > * {
 .header-img {
     position: absolute;
     height: 525px;
-    top: 55px;
+    top: -55px;
     right: -270px;
 }
 
