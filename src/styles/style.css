@@ -256,9 +256,10 @@ header > * {
 
 .sec-2-block {
     width: 350px;
-    height: 348px;
+    height: 350px;
     display: flex;
     flex-direction: column;
+    text-align: left;
     padding: 24px;
     transition: 0.1s;
 }
@@ -293,7 +294,7 @@ header > * {
 }
 
 .h3-block {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .white-text {
