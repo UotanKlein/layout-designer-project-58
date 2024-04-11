@@ -157,6 +157,12 @@ header > * {
     text-align: center;
     padding: 0.75rem 1.75rem;
     box-sizing: border-box;
+    transition: 0.1s;
+}
+
+.detail:hover {
+    filter: brightness(0.9);
+    transition: 0.1s;
 }
 
 .row {
@@ -239,6 +245,7 @@ header > * {
     display: flex;
     flex-direction: column;
     padding: 24px;
+    transition: 0.1s;
 }
 
 .sec-2-block-first {
@@ -253,10 +260,12 @@ header > * {
     cursor: pointer;
     background-color: var(--main-color);
     color: var(--white);
+    transition: 0.1s;
 }
 
 .sec-2-block:hover h3 {
     color: var(--white);
+    transition: 0.1s;
 }
 
 .light {
@@ -297,7 +306,6 @@ header > * {
 }
 
 footer {
-    height: 581px;
     background-color: white;
     padding: 100px 165px;
     display: flex;
@@ -310,7 +318,6 @@ footer {
     width: 1110px;
     height: 190px;
     background-color: var(--main-dark);
-    margin-bottom: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -320,6 +327,7 @@ footer {
 .footer-text {
     text-align: center;
     font-size: 14px;
+    margin-top: 60px;
 }
 
 #mail {
@@ -328,9 +336,10 @@ footer {
     outline: none;
     border: 1px solid #E3E3E3;
     padding: 0;
-    padding-left: 15px;
+    padding: 15px;
     box-sizing: border-box;
-    color: rgba(117, 117, 117, 0.2);
+    color: #757575;
+    font-size: 14px;
 }
 
 .mail-container {
@@ -344,6 +353,12 @@ footer {
     background-color: var(--main-color);
     border: none;
     padding: 0;
+    transition: 0.1s;
+}
+
+.mail-button:hover {
+    filter: brightness(0.9);
+    transition: 0.1s;
 }
 
 .bg-light {
@@ -425,4 +440,8 @@ footer {
 
 .z-id-1 {
     z-index: 1;
+}
+
+.rules {
+    color: inherit;
 }
