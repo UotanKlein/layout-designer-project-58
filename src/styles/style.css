@@ -71,6 +71,10 @@
     line-height: 1.2em;
 }
 
+.blue-text {
+    color: var(--blue);
+}
+
 .neucha {
     font-family: 'Neucha';
 }
@@ -480,4 +484,8 @@ footer {
 
 .top-info > * {
     line-height: 1.2em;
+}
+
+.mail-text {
+    margin-bottom: 10px;
 }
