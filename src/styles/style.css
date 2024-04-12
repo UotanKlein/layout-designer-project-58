@@ -211,7 +211,7 @@ header > * {
 .sec-1 {
     position: relative;
     box-sizing: border-box;
-    top: 105px;
+    margin-top: 105px;
 }
 
 .sec-1-content {
@@ -252,6 +252,7 @@ header > * {
     padding: 0;
     padding-top: 200px;
     padding-bottom: 100px;
+    margin-top: -105px;
 }
 
 .text-image-cont {
