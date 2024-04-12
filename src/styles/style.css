@@ -215,10 +215,10 @@ header > * {
     align-items: center; 
     text-align: center;
     position: relative;
-    top: 100px;
+    top: 105px;
     left: 0;
     right: 0;
-    margin-bottom: 10px;
+    margin-bottom: 11px;
 }
 
 .bg-1 {
