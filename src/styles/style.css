@@ -211,6 +211,7 @@ header > * {
 .sec-1 {
     position: relative;
     box-sizing: border-box;
+    top: 105px;
 }
 
 .sec-1-content {
@@ -219,7 +220,6 @@ header > * {
     align-items: center; 
     text-align: center;
     position: relative;
-    top: 105px;
     left: 0;
     right: 0;
     margin-bottom: 13px;
