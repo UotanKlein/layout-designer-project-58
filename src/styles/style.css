@@ -218,6 +218,7 @@ header > * {
     top: 100px;
     left: 0;
     right: 0;
+    margin-bottom: 10px;
 }
 
 .bg-1 {
